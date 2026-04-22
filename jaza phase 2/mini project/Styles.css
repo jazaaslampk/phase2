@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    background: #ebc3d1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: palevioletred;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
